@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Afghan Poeom Generator</title>
   </head>
   <body>
     <div class="container">
       <header class="head"><h1>AI Afghan peom generator</h1></header>
       <main>
-        <form>
+        <form id="poem-generator">
           <input
             type="text"
             placeholder="Enter the topic of the Afghan peom.."
@@ -20,11 +21,7 @@
           />
           <input type="submit" value="Search" class="submit-button" />
         </form>
-        <div class="peom">
-          به روز مرگ چو تابوت من روان باشد
-          <br />
-          گمان مبر که مرا درد این جهان باشد
-        </div>
+        <div class="peom" id="poem"></div>
       </main>
       <footer>
         This page is coded by
