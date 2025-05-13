@@ -1,0 +1,75 @@
+body {
+  font-family: pt "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/165/696/original/dancing-dervish-figure-vector-illustration-600nw-2532718595.png?1747122444);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head {
+  margin-bottom: 30px;
+}
+h1 {
+  color: rgb(225, 225, 228);
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+form {
+  padding: 30px;
+  background-color: rgb(247, 247, 251);
+  border-radius: 12px;
+  box-shadow: 0px 10px 40px rgba(238, 237, 240, 0.739);
+  display: flex;
+  margin-bottom: 30px;
+}
+.enter-text {
+  width: 80%;
+  padding: 15px;
+  border-radius: 50px;
+  border: 1px solid grey;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.submit-button {
+  padding: 14px 24px;
+  border-radius: 50px;
+  border: 1px solid white;
+  margin-left: 10px;
+  background-color: gray;
+  width: 150px;
+  color: white;
+  font-size: 16px;
+}
+.submit-button:hover {
+  background-color: rgb(247, 247, 251);
+  color: grey;
+  border: grey 1px solid;
+  transition: 200ms all ease-in-out;
+}
+.peom {
+  color: gray;
+  line-height: 2;
+  margin-bottom: 30px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid gray;
+  font-size: 16px;
+  background-color: rgb(247, 247, 251);
+  border-radius: 12px;
+  box-shadow: 0px 10px 40px rgba(238, 237, 240, 0.739);
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  color: rgb(225, 225, 228);
+}
+a {
+  color: rgb(182, 175, 175);
+}
