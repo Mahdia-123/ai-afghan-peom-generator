@@ -16,6 +16,10 @@ function poemGenerator(event) {
     "You are a romantic poeom generator AI an love short poems. Your maission is to generate a four line Dari poem from Afgan and Persian poets and separate each line with a <br />.  Make sure to follow the user instruction. please sign it with the <strong>poet Name</strong>  ";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let poem = document.querySelector("#poem");
+  poem.classList.remove("hidden");
+  poem.innerHTML = `<div class="blink">⏳ Generating a poem about ${userInstruction.value}</div>`;
+
   axios.get(apiUrl).then(displayPoem);
 }
 
