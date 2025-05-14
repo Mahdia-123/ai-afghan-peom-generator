@@ -12,18 +12,22 @@
     <div class="container">
       <header class="head"><h1>AI Afghan poem generator</h1></header>
       <main>
-        <form id="poem-generator">
-          <input
-            type="text"
-            placeholder="Enter the topic of the Afghan poem.."
-            autocomplete="off"
-            required
-            class="enter-text"
-            id="user-instruction"
-          />
-          <input type="submit" value="Search" class="submit-button" />
-        </form>
-        <div class="peom" id="poem"></div>
+        <div class="form-Wrapper">
+          <form id="poem-generator">
+            <input
+              type="text"
+              placeholder="Enter the topic of the Afghan poem.."
+              autocomplete="off"
+              required
+              class="enter-text"
+              id="user-instruction"
+            />
+            <input type="submit" value="Search" class="submit-button" />
+          </form>
+          <div class="i-e">i.e: FLower, Love or Moon</div>
+        </div>
+
+        <div class="peom hidden" id="poem"></div>
       </main>
       <footer>
         This page is coded by
